@@ -1,0 +1,10 @@
+[Unit]
+Description=Stream service
+After=network.target
+
+[Service]
+User=username
+ExecStart=/bin/bash -c "libcamera-vid -t 0 --framerate 15 --inline -o - | cvlc stream:///dev/stdin -->Restart=always
+
+[Install]
+WantedBy=multi-user.target
