@@ -36,3 +36,7 @@ sudo systemctl enable stream.service
 sudo systemctl start stream.service
 ```
 To access on VLC go to file, network stream, then enter http://<ip-of-rpi<ip-of-rpi>>:8090
+
+Generic Camera Integration in Home Assistant
+
+![image](https://github.com/thenamesjagger/Raspberry-Pi-Security-Camera/assets/67752390/bd741668-3901-4244-817e-06c3c4d2b2f5)
